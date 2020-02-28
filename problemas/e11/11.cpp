@@ -2,13 +2,10 @@
 using namespace std;
 int main(){
 
-int q;
-int x;
+int i;
+for(i=0;i<100;i++){
 
-cin>>q;
-cin>>x;
-
-cout<<"Los primeros numeros enteros "<<x<<endl;
-
+cout<<"Numero entero "<<i<<endl;
+}
 return 0;
 }

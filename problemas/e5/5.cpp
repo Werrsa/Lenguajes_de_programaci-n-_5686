@@ -1,15 +1,26 @@
-#include <iostream>
-#include <stdio.h>
+#include<iostream>
 using namespace std;
 int main(){
 
-float y;
-float x;
+int q;
+int iva;
+int pn;//precio neto
+int des;//descuento
+int np;//nuevo precio
 
-cin>>y;
-cin>>x;
+cout<<"¿Cuál es el precio?";
+cin>>q;
+iva=q*.15;
+pn=q+iva;
+if(pn>50000){
 
-cout<<"Factura del producto:"<<y<<endl;
+des=pn*.05;
+cout<<"descuento de"<<des<<"$"<<endl;
+np=pn-des;
+cout<<"precio con descuento"<<np<<endl;
+}
+
+cout<<"precio neto"<<pn<<endl;
 
 return 0;
 }
