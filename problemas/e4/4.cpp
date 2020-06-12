@@ -1,15 +1,27 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 int main(){
 
 int q;
-int x;
+int n;
+int p=0;
+int i;
 
-cout<<"Teclea"<<endl;
+cout<<"cuantos numeros quiere leer";
 cin>>q;
-cin>>x;
 
-cout<<"Son positivos: "<<x<<endl;
+for(i=1;i<=q;i++){
 
-return 0; 
+cout<<"di numero";
+cin>>n;
+if(n>0){
+
+n=1;
+p+=+1;
+}
+}
+
+cout<<"son numeros postivos"<<p<<endl;
+
+return 0;
 }

@@ -1,14 +1,20 @@
 #include <iostream>
 using namespace std;
+
+int q;//ingreso
+int n;//numero
+int i;
+
 int main(){
 
-int q;
-int x;
-
+cout<<"N primeros numero";
 cin>>q;
-cin>>x;
-	
-cout<<"Resultado de los primero multiplos de 4"<<x<<endl;
 
-return 0; 
+for(i=1;i<=n;i++){
+
+n=i*4;
+cout<<"El numero "<<n<<" es multiplo de 4."<<endl;
+}
+
+return 0;
 }

@@ -23,7 +23,7 @@ cin>>x7;
 cin>>x8;
 cin>>x9;
 cin>>x10;
-
+s=x1+x2+x3+x4+x5+x6+x7+x8+x9+x10;
 cout<<"Resultado:"<<s<<endl;
 
 return 0;
